@@ -1,0 +1,16 @@
+{
+  "name": "@rosbag-engine/core",
+  "version": "0.1.0",
+  "description": "Core shared library for ROSBag engine",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "test": "vitest"
+  },
+  "peerDependencies": {
+    "@types/node": "^20.19.0 || >=22.12.0"
+  }
+}
