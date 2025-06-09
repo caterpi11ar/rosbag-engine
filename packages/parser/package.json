@@ -16,10 +16,6 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "@foxglove/rosbag": "^0.4.1",
-    "lz4js": "^0.2.0"
-  },
-  "devDependencies": {
-    "@types/lz4js": "^0.2.1"
+    "@foxglove/rosbag": "^0.4.1"
   }
 }
