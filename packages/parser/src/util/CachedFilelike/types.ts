@@ -14,8 +14,8 @@ export interface FileStream {
    * @param event 事件类型，'data' 表示接收到数据
    * @param listener 数据回调函数，接收每个数据块
    */
-  on: (<T>(event: 'data', listener: (chunk: T) => void) => void) & ((event: 'error', listener: (err: Error) => void) => void)
-
+  on<T>(event: 'data', listener: (chunk: T) => void): void
+  on(event: 'error', listener: (err: Error) => void): void
   /**
    * 销毁当前文件流
    * 用于中断文件读取、释放资源
