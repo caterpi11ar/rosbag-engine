@@ -1,0 +1,25 @@
+{
+  "name": "@rosbag-engine/downloader",
+  "version": "0.1.0",
+  "description": "ROSBag downloader module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "test": "vitest",
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "@types/node": "^20.19.0 || >=22.12.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@foxglove/rosbag": "^0.4.1"
+  },
+  "devDependencies": {
+    "eventemitter3": "^5.0.1",
+    "intervals-fn": "^3.0.3"
+  }
+}

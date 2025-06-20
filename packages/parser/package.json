@@ -1,0 +1,33 @@
+{
+  "name": "@rosbag-engine/parser",
+  "version": "0.1.0",
+  "description": "ROSBag parser engine with streaming support",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "peerDependencies": {
+    "@types/node": "^20.19.0 || >=22.12.0"
+  },
+  "dependencies": {
+    "@foxglove/rosbag": "^0.4.1",
+    "@foxglove/rosmsg": "^4.0.0",
+    "@foxglove/rosmsg-serialization": "^1.0.0",
+    "@foxglove/rostime": "^1.0.0",
+    "@mcap/core": "^1.0.0",
+    "@rosbag-engine/downloader": "workspace:*",
+    "comlink": "^4.4.2",
+    "lz4js": "^0.2.0"
+  },
+  "devDependencies": {
+    "@types/lz4js": "^0.2.1",
+    "@types/node": "^20.19.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  }
+}
